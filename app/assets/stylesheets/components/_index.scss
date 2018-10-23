@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900|Roboto:400,100,300,700,500');
+@import url('https://fonts.googleapis.com/css?family=Futura:300,400,600,700,800,900');
+
+@import "navbar";
+@import "footer";
+@import "banner";
+@import "forms";
+@import "buttons";
+
+
+h1 {
+  font-size: 18px !important;
+  font-family: "Nunito" !important;
+  color: black !important;
+}

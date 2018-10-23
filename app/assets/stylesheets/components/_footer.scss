@@ -1,0 +1,37 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15em;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  background: #8794F2;
+  border-bottom: 3em;
+  border-color: #45D9EF;
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 30px 10px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: white;
+  transition: all 0.5s ease 0s;
+}

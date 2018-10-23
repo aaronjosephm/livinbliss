@@ -1,0 +1,237 @@
+.navbar-wagon {
+  // box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  // transition: all 0.3s ease;
+  height: 5em;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0.5em;
+  border-color: rgba(196, 38, 38, 0.9);
+  border-style: solid;
+}
+
+.underline {
+  background: #C42626;
+  height: 10px;
+  position: fixed;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.navbar-placeholder {
+  height: 70px;
+}
+
+.navbar-wagon i {
+  color: #E0D9C6;
+}
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wagon-right h1 {
+  color: rgba(196, 38, 38, 0.9);
+  font-size: 4.25em;
+  font-family: "Nunito";
+  font-weight: bold;
+  margin-right: -11px;
+  margin-bottom: 2px;
+}
+
+.navbar-wagon-right h2 {
+  color: white;
+  font-size: 2.7em;
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  margin-bottom: -16px;
+}
+
+.navbar-wagon-right h3 {
+  color: white;
+  font-size: 1.7em;
+  font-family: "IBM Plex Sans";
+  letter-spacing: 2px;
+  margin-bottom: -28px;
+  margin-left: 5px;
+}
+
+.navbar-wagon-right a:hover {
+  text-decoration: none;
+}
+
+.navbar-wagon-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wagon-left a:hover {
+  text-decoration: none !important;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+  color: #E0D9C6;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #E0D9C6;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: white;
+  text-decoration: none;
+  transition: all 0.9s ease 0s;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+.hide{
+  display: none;
+}
+
+.nav-button {
+  font-family: "Nunito" !important;
+  color: black !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 18px !important;
+  letter-spacing: 0.5px !important;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #333;
+  height: 3px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+/* By Dominik Biedebach @domobch */
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #023f1c;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+section {
+  height: 100vh;
+}
+
+/* NAVIGATION */
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+
+/* By Dominik Biedebach @domobch */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}

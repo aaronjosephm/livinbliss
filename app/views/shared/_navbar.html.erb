@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: sticky !important; top: 0 !important; z-index: 1020 !important; box-shadow: none !important; border-color: red !important; width: 100%; background-color: white !important;">
+  <%= link_to root_path do %>
+      <%= image_tag "livinbliss_nav_logo.png", size: "215x87" %>
+
+    <% end %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" style="text-align: right !important;" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            HOME
+          </div>
+        <% end %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            ABOUT ME
+          </div>
+        <% end %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            YOGA & FITNESS
+          </div>
+        <% end %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            HEALTH COACHING OFFERINGS
+          </div>
+        <% end %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            RESOURCES
+          </div>
+        <% end %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to root_path do %>
+          <div class="nav-button">
+            CONNECT WITH ME
+          </div>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+</nav>
