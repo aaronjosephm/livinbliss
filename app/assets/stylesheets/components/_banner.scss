@@ -1,7 +1,7 @@
 .landing-banner {
   height: 778px;
   width: 100%;
-  background-image: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.2)), asset-url("banner1.jpg");
+  background-image: asset-url("banner1.jpg");
   background-size: cover;
   background-size: center;
   background-repeat: no-repeat;
