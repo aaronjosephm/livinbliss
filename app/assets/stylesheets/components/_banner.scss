@@ -13,3 +13,18 @@
   margin-bottom: 0;
   color: white;
 }
+
+.landing-banner h1 {
+  font-family: Nunito !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 40px !important;
+  text-align: left !important;
+  margin-bottom: 30px !important;
+}
+
+.landing-banner h1:hover {
+  color: white !important;
+  transition: all 0.9s ease 0s;
+}

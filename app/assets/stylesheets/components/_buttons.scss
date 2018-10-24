@@ -1,7 +1,7 @@
 .subscribe {
   left: 0;
   position: absolute;
-  width: 165px;
+  width: 12vw;
   height: 56px;
   font-family: "Nunito";
   font-style: normal;
@@ -13,9 +13,31 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-right: 0 !important;
 }
 
 .subscribe h1 {
   color: white !important;
   margin: 0 !important;
+}
+
+.landing-description-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-description-btn h2 {
+  font-size: 30px !important;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Nunito" !important;
+  margin-bottom: 20px !important;
+  color: white;
+}
+
+.landing-description-btn .btn {
+  margin-top: 50px !important;
+  font-style: "Nunito" !important;
+  background-color: #8794F2 !important;
+  border-color: #8794F2 !important;
 }
