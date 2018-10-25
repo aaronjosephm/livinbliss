@@ -7,7 +7,7 @@
   height: 15em;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
-  background: #8794F2;
+  background: #9BF1FF;
   border-bottom: 3em;
   border-color: #45D9EF;
   border-style: solid;
@@ -23,7 +23,7 @@
 }
 
 .footer-links a {
-  color: white;
+  color: #111;
   text-decoration: none;
   font-size: 24px;
   padding: 30px 10px;
@@ -34,4 +34,16 @@
   opacity: 1;
   color: white;
   transition: all 0.5s ease 0s;
+}
+
+.instagram-footer {
+
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-footer h1 {
+  letter-spacing: 3px;
 }
