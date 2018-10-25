@@ -16,46 +16,10 @@
   color: #000000 !important;
 }
 
-.white-stamp-underline {
-  border-bottom: solid 1px;
-  border-color: white;
-}
 
-.white-stamp {
-  height: 95px;
-  width: 88px;
-  background-image: asset-url("stamp.png");
-  background-size: cover;
-  background-size: center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: -47px;
-}
-
-.stamp {
-  height: 95px;
-  width: 88px;
-  background-image: asset-url("stamp.png");
-  background-size: cover;
-  background-size: center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: -47px;
-}
-
-.stamp-underline {
-  border-bottom: solid 1px;
-  border-color: black;
+.card {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
 }
 
 .landing-card1 {
@@ -107,7 +71,66 @@
   font-size: 18px;
 }
 
-.card {
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
+.stamp {
+  height: 95px;
+  width: 88px;
+  background-image: asset-url("stamp.png");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -47px;
+}
+
+.stamp-underline {
+  border-bottom: solid 1px;
+  border-color: black;
+}
+
+
+.quote {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.2)), asset-url("quote_cover");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 40%;
+}
+
+.quote h2 {
+  font-family: "Nunito" !important;
+  font-style: italic !important;
+  font-weight: none !important;
+  line-height: normal !important;
+  font-size: 30px !important;
+  text-align: center !important;
+  color: white !important;
+}
+
+.white-stamp-underline {
+  border-bottom: solid 1px;
+  border-color: white;
+}
+
+.white-stamp {
+  height: 95px;
+  width: 88px;
+  background-image: asset-url("stamp.png");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -47px;
 }
