@@ -16,6 +16,27 @@
   color: #000000 !important;
 }
 
+.white-stamp-underline {
+  border-bottom: solid 1px;
+  border-color: white;
+}
+
+.white-stamp {
+  height: 95px;
+  width: 88px;
+  background-image: asset-url("stamp.png");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -47px;
+}
+
 .stamp {
   height: 95px;
   width: 88px;

@@ -1,3 +1,20 @@
+.page-banner {
+  margin-top: -200px;
+  height: 700px;
+  width: 100%;
+  background-image: asset-url("yoga_cover.jpg");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
 .landing-banner {
   height: 778px;
   width: 100%;
@@ -19,7 +36,7 @@
   font-style: normal !important;
   font-weight: normal !important;
   line-height: normal !important;
-  font-size: 40px !important;
+  font-size: 30px !important;
   text-align: left !important;
   margin-bottom: 30px !important;
 }
