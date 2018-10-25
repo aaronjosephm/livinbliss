@@ -50,7 +50,12 @@
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 50px;
+  margin-bottom: -47px;
+}
+
+.stamp-underline {
+  border-bottom: solid 1px;
+  border-color: black;
 }
 
 .landing-card1 {
@@ -84,6 +89,10 @@
   border-left: solid 10px;
   border-right: solid 10px;
   border-color: white;
+}
+
+.landing-description {
+  margin-top: 100px;
 }
 
 .landing-description h1 {
