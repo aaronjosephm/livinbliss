@@ -1,13 +1,9 @@
 .newsletter {
   position: relative;
   width: 100%;
-  display: inline-grid;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 138px;
+  height: auto;
   padding: 0px 50px;
-  background: #45D9EF;
-  border-color: #45D9EF;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   padding-top: 20px;
   padding-bottom: 20px;
 }
