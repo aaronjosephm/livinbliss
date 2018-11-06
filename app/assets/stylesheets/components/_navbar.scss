@@ -149,7 +149,7 @@
   font-style: normal !important;
   font-weight: normal !important;
   line-height: normal !important;
-  font-size: 18px !important;
+  font-size: 12px !important;
   letter-spacing: 0.5px !important;
 }
 
@@ -214,9 +214,11 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
+
 }
 nav ul li {
   display: inline-block;
+
 }
 nav ul li a {
   display: block;
@@ -226,6 +228,7 @@ nav ul li a {
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 10px;
+  font-size: 10px !important;
 }
 nav ul li a,
 nav ul li a:after,
