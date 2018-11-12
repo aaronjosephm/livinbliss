@@ -1,9 +1,10 @@
 .page-banner {
-  margin-top: -200px;
+  margin-top: -400px;
   height: 700px;
   width: 100%;
-  background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.2)), asset-url("yoga_cover.jpg");
+  background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.2)), asset-url("page_background.jpg");
   background-size: cover;
+  background-position: 50% 40%;
   background-size: center;
   background-repeat: no-repeat;
   position: relative;
