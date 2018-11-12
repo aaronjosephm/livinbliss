@@ -16,7 +16,6 @@
   color: #000000 !important;
 }
 
-
 .card {
   margin-top: 30px !important;
   margin-bottom: 30px !important;
@@ -234,11 +233,13 @@
 .program-card {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
-  height: 450px;
+  height: auto;
   padding-top: 20px;
   border-left: solid 10px;
   border-right: solid 10px;
   border-color: white;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .program-card h1, li, h2 {
@@ -307,6 +308,12 @@
 .white-stamp-underline {
   border-bottom: solid 1px;
   border-color: white;
+}
+
+@media (max-width: 1000px) {
+  .white-stamp-underline {
+    margin-bottom: 100px;
+  }
 }
 
 .white-stamp {
