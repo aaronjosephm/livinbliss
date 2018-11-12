@@ -149,6 +149,21 @@
   border-color: white;
 }
 
+.pop-up-picture {
+  background-image: asset-url("doula");
+  margin-bottom: 40px;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
 .landing-card1 {
   background-image: asset-url("yoga");
   background-size: cover;
