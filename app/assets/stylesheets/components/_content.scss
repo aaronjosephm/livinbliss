@@ -245,6 +245,21 @@
   color: white !important;
 }
 
+.program-card2 {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100%;
+  height: 300px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+  padding: 30px;
+}
+
+.program-card2 h1, li, h2 {
+  color: white !important;
+}
+
 .stamp {
   height: 95px;
   width: 88px;
