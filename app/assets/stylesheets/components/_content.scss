@@ -231,6 +231,20 @@
   margin-bottom: 20px;
 }
 
+.program-card {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100%;
+  height: 450px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
+.program-card h1, li, h2 {
+  color: white !important;
+}
+
 .stamp {
   height: 95px;
   width: 88px;
