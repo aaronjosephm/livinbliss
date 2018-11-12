@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get '/yoga', to: 'yoga#show'
 
+  get '/doula', to: 'doula#show'
+
   get '/resources', to: 'resources#show'
 
   get '/connect', to: 'connect#show'
