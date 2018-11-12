@@ -22,6 +22,14 @@
   margin-bottom: 30px !important;
 }
 
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
 .insta-card {
   background-image: url("https://scontent-sjc3-1.cdninstagram.com/vp/e33ef7cecdc747f1a68c4c9c0a79dec8/5C6E9B14/t51.2885-15/e35/p480x480/36148612_901348460053315_8310452626143576064_n.jpg");
   height: 250px;
@@ -77,6 +85,17 @@
 
 .testimonial-photo-vicky {
   background-image: asset-url("vicky");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
+.testimonial-photo-lien {
+  background-image: asset-url("Lien_Hoang");
   background-size: cover;
   background-position: center;
   height: 300px;
