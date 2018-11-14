@@ -281,6 +281,8 @@
 .stamp-underline {
   border-bottom: solid 1px;
   border-color: black;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -313,6 +315,10 @@
 @media (max-width: 1000px) {
   .white-stamp-underline {
     margin-bottom: 100px;
+  }
+
+  .input {
+    width: 200px;
   }
 }
 
