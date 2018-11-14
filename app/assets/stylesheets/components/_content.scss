@@ -115,6 +115,17 @@
   border-color: white;
 }
 
+.testimonial-photo-abby {
+  background-image: asset-url("Abby");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
 .testimonial-photo-brian {
   background-image: asset-url("Brian");
   background-size: cover;
@@ -207,6 +218,21 @@
 .landing-description {
   margin-top: 100px;
   position: relative;
+  height: auto;
+}
+
+.landing-description2 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.landing-description2 h1 {
+  text-align: center;
+}
+
+.landing-description2 p {
+  text-align: center;
+  font-size: 18px;
 }
 
 .landing-description h1 {
