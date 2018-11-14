@@ -265,7 +265,8 @@
 .stamp {
   height: 95px;
   width: 88px;
-  background-image: asset-url("stamp.png");
+  background-image: asset-url("new_symbol.png");
+  background-position: 50% 40%;
   background-size: cover;
   background-size: center;
   background-repeat: no-repeat;
@@ -275,7 +276,7 @@
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: -47px;
+  margin-bottom: -40px;
 }
 
 .stamp-underline {
