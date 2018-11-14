@@ -1,7 +1,7 @@
 .banner-quote {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -32,7 +32,7 @@
 .insta-card {
   background-image: url("https://scontent-sjc3-1.cdninstagram.com/vp/e33ef7cecdc747f1a68c4c9c0a79dec8/5C6E9B14/t51.2885-15/e35/p480x480/36148612_901348460053315_8310452626143576064_n.jpg");
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin-bottom: 50px !important;
   background-position: 50% 40%;
   background-size: cover;
@@ -45,7 +45,7 @@
 .insta-card2 {
   background-image: url("https://scontent-sjc3-1.cdninstagram.com/vp/da4e7f764aaf507762033d46efbc6a4d/5C674C0E/t51.2885-15/e35/s480x480/37943853_284412485447616_3209200439744528384_n.jpg");
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin-bottom: 50px !important;
   background-position: 50% 40%;
   background-size: cover;
@@ -58,7 +58,7 @@
 .insta-card3 {
   background-image: url("https://scontent-sjc3-1.cdninstagram.com/vp/9459a7962eb0315f86f56ce56c8e0ab0/5C4BF6FA/t51.2885-15/e35/p480x480/37211428_266875680765017_486706823559118848_n.jpg");
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin-bottom: 50px !important;
   background-position: 50% 40%;
   background-size: cover;
@@ -72,7 +72,7 @@
 .insta-card4 {
   background-image: url("https://scontent-sjc3-1.cdninstagram.com/vp/a11ff1182d3b570449a9c3d882ddae4c/5C65E290/t51.2885-15/e35/p480x480/26180878_400721743717484_1531271689176875008_n.jpg");
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin-bottom: 50px !important;
   background-position: 50% 40%;
   background-size: cover;
@@ -290,7 +290,7 @@
 .quote {
   background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.2)), asset-url("quote_cover");
   background-size: cover;
-  height: 400px;
+  height: auto;
   text-align: center;
   display: flex;
   justify-content: center;
