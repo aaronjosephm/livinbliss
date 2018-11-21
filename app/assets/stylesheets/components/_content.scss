@@ -215,6 +215,28 @@
   border-color: white;
 }
 
+.landing-card4 {
+  background-image: asset-url("fitness_photo");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
+.about-card {
+  background-image: asset-url("about_me");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
 .landing-description {
   margin-top: 100px;
   position: relative;
