@@ -1,0 +1,18 @@
+<% if notice %>
+  <script>
+    alert('Your form has been submitted!');
+  </script>
+  <!-- <div class="alert alert-info alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <%= notice %>
+  </div> -->
+<% end %>
+<% if alert %>
+  <script>
+    alert('Please fill in the required fields!');
+  </script>
+  <!-- <div class="alert alert-warning alert-dismissible" role="alert" style="position: relative; background-color: #C42626 !important; color: white !important; margin-bottom: 0 !important;">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <%= alert %>
+  </div> -->
+<% end %>

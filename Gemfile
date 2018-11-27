@@ -17,6 +17,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'postmark-rails'
+
+gem 'figaro'
+
+gem 'mail_form'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
@@ -34,6 +38,10 @@ gem 'mail_form'
 gem 'devise'
 
 gem 'geocoder'
+
+gem 'gibbon'
+
+gem 'mailchimp-api', require: 'mailchimp'
 
 gem 'jquery-rails'
 
