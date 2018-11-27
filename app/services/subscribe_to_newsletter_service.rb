@@ -14,7 +14,8 @@ class SubscribeToNewsletterService
   end
 
   def call
-    @gibbon.lists(@list_id).members.create(
+    begin
+      @gibbon.lists(@list_id).members.create(
       body: {
         email_address: @user,
         status: "subscribed",
@@ -24,5 +25,8 @@ class SubscribeToNewsletterService
         }
       }
     )
+    rescue Gibbon::MailChimpError => e
+      flash[:alert] = "Please fill out required fields!"
+    end
   end
 end
