@@ -30,7 +30,7 @@ class ConnectController < ApplicationController
     else
       @first = name.split(" ")[0]
     end
-    @gibbon = Gibbon::Request.new(api_key: "3dd3dba831f1bbf578302e564475c0b2-us17")
+    @gibbon = Gibbon::Request.new(api_key: ENV["MAILCHIMP-API-KEY"])
     @list_id = "1e1df70b4b"
   end
 
