@@ -6,7 +6,6 @@ class ConnectController < ApplicationController
   def create
     email = params[:email]
     name = params[:name]
-
     subscription = SubscribeToNewsletterService.new(email, name)
 
   	if subscription.call
