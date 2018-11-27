@@ -1,6 +1,14 @@
 class SubscribeToNewsletterService
-  def initialize(user)
+  def initialize(user, name)
     @user = user
+    @first = ""
+    @last = ""
+    if name.split.length == 2
+      @first = name.split(" ")[0]
+      @last = name.split(" ")[1]
+    else
+      @first = name.split(" ")[0]
+    end
     @gibbon = Gibbon::Request.new(api_key: "3dd3dba831f1bbf578302e564475c0b2-us17")
     @list_id = "1e1df70b4b"
   end
@@ -10,10 +18,10 @@ class SubscribeToNewsletterService
       body: {
         email_address: @user,
         status: "subscribed",
-        # merge_fields: {
-        #   FNAME: @user.first_name,
-        #   LNAME: @user.last_name
-        # }
+        merge_fields: {
+          FNAME: @first,
+          LNAME: @last
+        }
       }
     )
   end
