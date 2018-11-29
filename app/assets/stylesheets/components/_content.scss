@@ -193,6 +193,18 @@
   border-color: white;
 }
 
+.yoga-card1 {
+  background-image: asset-url("yoga");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 70vw;
+  padding-top: 20px;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: white;
+}
+
 .landing-card2 {
   background-image: asset-url("health");
   background-size: cover;
@@ -277,6 +289,41 @@
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.parallax-yoga {
+  /* The image used */
+  background-image: asset-url("quote2");
+
+  /* Set a specific height */
+  min-height: 600px; 
+  
+  margin-top: 50px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+.parallax-yoga p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Nunito" !important;
+  font-style: italic !important;
+  font-weight: none !important;
+  line-height: normal !important;
+  font-size: 30px !important;
+  text-align: center !important;
+  color: white !important;
+}
+
+.parallax-yoga h1 {
+  color: white !important;
 }
 
 .program-card {
